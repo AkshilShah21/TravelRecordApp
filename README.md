@@ -1,4 +1,4 @@
 # TravelRecordApp
-Here is Xamarin form project with concrete structure (Code-Behind implementation). i did use Firebase and Fouresquare Api
+Here is Xamarin form project with MVVM pattern (Model View View Model). i did use Firebase and Fouresquare Api
 Firebase for authoraization and firebase database to store data.
 Fouresquare Api to get nearby places
