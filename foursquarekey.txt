@@ -1,0 +1,6 @@
+foursquare api key 
+keyname: travelrecordkey 
+key: fsq3ZtTfsq38wAKG0lRxKWebrgepMzvel9LRzaVE3lCLcjCtP2trkU=
+
+
+fsq3OjqhBtwNUeMbwJyy948zmQ5NnuTz0Aw8VRSD8EHpmws=

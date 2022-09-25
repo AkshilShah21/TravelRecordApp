@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TravelRecordApp.RegisteredPage">
+    <ContentPage.Content>
+        <StackLayout Margin="10" Spacing="20">
+            <Label Text="Registered yourself here!" FontSize="14" TextColor="#1E90FF" 
+                   VerticalOptions="Start" HorizontalOptions="CenterAndExpand"/>
+
+            <Entry x:Name="fullNameEntry"
+               Placeholder="Name"
+               TextColor="{StaticResource blueColor}"/>
+            
+            <Entry x:Name="emailEntry"
+               Placeholder="Email"
+               Keyboard="Email"
+               TextColor="{StaticResource blueColor}"/>
+
+            <Entry x:Name="passwordEntry"
+               Placeholder="Password"
+               IsPassword="True"
+               IsVisible="True"
+               TextColor="{StaticResource blueColor}"/>
+            <Entry x:Name="passwordEntry2"
+               Placeholder="Enter Password Password"
+               IsPassword="True"
+               IsVisible="True"
+               TextColor="{StaticResource blueColor}"/>
+            <Button x:Name="SignUp"
+                Margin="0,50,0,0"
+                Text="Registered me"
+                Clicked="SignUp_Clicked"
+                Style="{StaticResource normalButton}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
